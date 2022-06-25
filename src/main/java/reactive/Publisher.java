@@ -1,4 +1,4 @@
-package Reactive;
+package reactive;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

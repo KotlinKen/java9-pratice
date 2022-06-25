@@ -1,4 +1,4 @@
-package Reactive;
+package reactive;
 
 import java.util.concurrent.Flow;
 
