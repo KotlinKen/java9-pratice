@@ -20,12 +20,12 @@ public class Subscriber implements Flow.Subscriber<Info>{
 
     @Override
     public void onError(Throwable throwable) {
-        System.out.println("error");
+        System.out.println("throwable.getMessage() = " + throwable.getMessage() + " [" + Thread.currentThread().getName() + "]");
 
     }
 
     @Override
     public void onComplete() {
-        System.out.println("DONE" + Thread.currentThread().getName());
+        System.out.println(" Done ! " + " [" + Thread.currentThread().getName() + "]");
     }
 }
